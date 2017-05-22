@@ -1,0 +1,117 @@
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0 auto;
+	background-color: #000;
+}
+
+.navegador {
+	background-color: #B51120;
+	overflow: auto;
+}
+
+.navegador li {
+	display: inline-block;
+	list-style: none;	
+	color: #fff;
+	margin-left: 30px;
+	font-size: 18px;
+}
+
+.imagenes {
+	margin: 40px;
+}
+
+.uno, .dos, .tres, .cuatro {
+	display:inline-block;
+	width: 150px; 
+	height: 150px;
+	margin: 20px;
+	border: 3px solid #BFBFBF;
+	filter: grayscale(80%);
+}
+
+.uno {
+	background-image: url(../img/a1.jpg);
+}
+
+.dos {
+	background-image: url(../img/a2.jpg);
+}
+
+.tres {
+	background-image: url(../img/a3.jpg);
+}
+
+.cuatro {
+	background-image: url(../img/a4.jpg);
+}
+
+.panda span {
+	color: white;
+	padding: 10px 10px;
+}
+
+.botones {
+	text-align: center;
+}
+
+.botones a {
+	display: inline-block;
+	padding: 10px 12%;
+	margin-top: 20px;
+	background-color:#B51120; 
+	text-decoration: none;
+	font-style: bold;
+	color: #fff;
+}
+
+.botones a:hover {
+	background-color: #EFD542;
+	color: #000;
+}
+
+.parrafos {
+	width: 100%;
+	color: white;
+	margin-left: 60px;
+
+}
+.parrafos p {
+	display: inline-block;
+	padding: 1%;
+	margin-left: 50px;
+	width: 20%;
+	text-align: justify;
+}
+
+.parrafos .extension {
+	margin-left: 85px;
+}
+
+.panda {
+	display: inline-block;
+	width: 150px; 
+	height: 150px;
+	margin: 20px;
+	filter: grayscale(80%);
+}
+
+.panda.no {
+	display: none;
+}
+
+.parrafos {
+	display: inline-block;
+	padding: 1%;
+	text-align: justify;
+}
+
+.parrafos.no {
+	display: none;
+}
+
+footer {
+	color: #FFFFFF;
+	text-align: center;
+	font-style: italic;
+}
